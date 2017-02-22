@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable:no">
+    <title>Hoja de vida</title>
+  </head>
+  <body>
+    <svg width="400px" height="200px" viewBox="40 150 1100 300">
+        <image width="1150px" height="600px" xlink:href="../images/LogoAlex.svg"></image>
+    </svg>
+    <p>
+    <ul>
+        <li><h1>Hoja de vida</h1></li>
+        <li><h2>Nestor Alexander Rubio Valero</h2></li>
+        <li><h3>19 de septiembre de 1989</h3></li>
+        <li><h3> Úmbita Boyaca-Colombia</h3></li>
+    </ul>
+  </p>
+    <ul>
+      <li><a href="../index.html">Ir a inicio</a></li>
+      <li><a href="educacion.html">Ir a educacion</a></li>
+      <li><a href="experiencia.html">Ir a experiencia</a></li>
+    </ul>
+    <h2>Educación</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <td>Año</td>
+          <td>Institución</td>
+          <td>Lugar</td>
+          <td>¿Culminó?</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2006</td>
+          <td>Colegio San Ignacio</td>
+          <td>Úmbita Boyaca</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td>Universidad Cooperativa de Colombia</td>
+          <td>Bogota D.C</td>
+          <td>Sí</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Formulario-->
+<br>
+<h2>Agregar Estudios</h2><br>
+    <form class="form-control" name="AgregarEstudios" action="index.html" method="post">
+      <div class="form-group">
+         <label for="ano">Año:</label>
+         <select class="form-control" id="ano">
+           <option value="2016">2016</option>
+           <option value="2017">2017</option>
+           <option value="2018">2018</option>
+           <option value="2019">2019</option>
+           <option value="2020">2020</option>
+         </select><br>
+         <label for="institucion">Institución:</label>
+         <input type="text" id="institucion" placeholder="Institucion" required><br>
+         <label for="Lugar">Lugar:</label>
+         <textarea id="lugar" rows="2" cols="40" required></textarea><br>
+         <label for="culmino">Culmino</label>
+           <b>Sí</b><input type="radio" name="si" value="Si">
+           <b>No</b><input type="radio" name="no" value="No">
+           <br><br>
+        <input type="submit" value="Enviar">
+       </div>
+    </form>
+  </body>
+  <footer>
+  <p>  Correo: Alexrv.12@hotmail.com | Telefono: 5410126 | facebook: @Alexander_rubio | Cll 26 # 1-54 Bogotá Colombia</p>
+  </footer>
+</html>
